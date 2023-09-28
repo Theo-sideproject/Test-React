@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+#name {
+    font-size: 3rem;
+}
+
+/*display: grid;*/
+/*grid-template-rows: 40px 1fr;*/
+
+
+#contentMoreInformation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    margin-top: 100px;
+    width: 80%;
+}
+
+#rightpart {
+    display: flex;
+    justify-content: center;
+}
+
+#rightpart img {
+    border-radius: 25px;
+    border: #282c34 3px solid;
+}
+
+#leftpart {
+
+}

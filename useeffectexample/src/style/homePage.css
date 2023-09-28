@@ -1,0 +1,17 @@
+#homePage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#cardsContainer {
+    margin-top: 100px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px );
+    gap: 50px;
+
+    justify-content: center;
+    width: 80%;
+}

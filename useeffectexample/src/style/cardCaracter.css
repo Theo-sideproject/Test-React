@@ -1,0 +1,33 @@
+a {
+    text-decoration: none;
+}
+
+.cardCaracter {
+    width: 300px;
+    height: 330px;
+
+    box-shadow: #0295A9 2px 2px 10px;
+    border: #12ADC1 2px solid;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.cardName {
+    font-size: 26px;
+    color: #FDD037;
+    margin-bottom: 10px;
+}
+
+.cardImage {
+    width: 234px;
+    height: 234px;
+
+    border-radius: 10px;
+}
